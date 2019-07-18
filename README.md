@@ -1,3 +1,29 @@
+
+
+> Build using AWS Developer tools
+
+---
+
+| Service        | Provider/Status  |
+| -------------  |:----------------:|
+| CodeBuild      | ![Build Status](https://codebuild.ap-southeast-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiNXBkVFhHb2Q3V0dFTDZkMjlqYUswQmlZd2o2dVluZm10QVNhT1NOUWlmTDBCWGVzT2xsU0tPK2dONTFtTUpyR1RSTDZGNk5lUUU5UDErRTYwT1NRYUJFPSIsIml2UGFyYW1ldGVyU3BlYyI6ImJvL0V3YzNMVWFXbXdyT0UiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master) |
+
+---
+
+| Endpoint        | Header-client_id  | Header-client_secret  | Resource |
+| -------------   |:----------------:| ----------------:| ----------------:|
+| http://tempapi-v1.us-e2.cloudhub.io       | some_id | some_secret | /api/?city=Chennai,IN |
+| http://tempapi-v1.us-e2.cloudhub.io       | some_id | some_secret | /api/?city=Brisbane,AU |
+
+
+
+
+
+
+
+
+
+
 # Web Service Consumer Example #
 
 This application illustrates how to consume a Web service by using the [Web Service Consumer](https://docs.mulesoft.com/connectors/web-service-consumer) connector.
