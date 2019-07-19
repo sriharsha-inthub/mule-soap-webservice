@@ -11,7 +11,7 @@
 ---
 
 | Endpoint        |  Resource | Method	| Header |
-| -------------   |:----------------:|
+| -------------   |:----------------:|:----------------:|:----------------:|
 | http://soapwebservice-v1.us-e2.cloudhub.io | /inventory 	| GET | NA	|
 | http://soapwebservice-v1.us-e2.cloudhub.io | /orders 		| PUT | Content-Type=application/json |
 
