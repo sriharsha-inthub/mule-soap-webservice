@@ -10,10 +10,27 @@
 
 ---
 
-| Endpoint        | Header-client_id  | Header-client_secret  | Resource |
-| -------------   |:----------------:| ----------------:| ----------------:|
-| http://tempapi-v1.us-e2.cloudhub.io       | some_id | some_secret | /api/?city=Chennai,IN |
-| http://tempapi-v1.us-e2.cloudhub.io       | some_id | some_secret | /api/?city=Brisbane,AU |
+| Endpoint        |  Resource | Method	| Header |
+| -------------   |:----------------:|
+| http://soapwebservice-v1.us-e2.cloudhub.io | /inventory 	| GET | NA	|
+| http://soapwebservice-v1.us-e2.cloudhub.io | /orders 		| PUT | Content-Type=application/json |
+
+###
+
+Put data
+
+
+{
+  "email":"info@mulesoft.com",
+  "address1":"Corrientes 316",
+  "address2":"EP",
+  "city":"Buenos Aires",
+  "country":"Argentina",
+  "name":"MuleSoft Argentina",
+  "postalCode":"C1043AAQ",
+  "size":"L",
+  "stateOrProvince":"CABA"
+}
 
 
 
